@@ -9,7 +9,11 @@ public class Main {
         System.out.println(waheedAccount.accountNumber);
         System.out.println(waheedAccount.sortCode);
 
-
+        Calculator waheedCalculator = new Calculator ("12 cms","Black","Tesco");
+        waheedCalculator.divide(1,2);
+        waheedCalculator.multiply(2,3);
+        waheedCalculator.subtract(5,4);
+        waheedCalculator.add(2,3);
 
 
 
